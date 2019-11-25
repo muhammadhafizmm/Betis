@@ -1,0 +1,26 @@
+/* content home screen */
+.pelajaran{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 75%;
+}
+.pelajaran .judul{
+    font-size: 1.5rem;
+    margin-bottom: .5em;
+}
+
+@media (orientation: portrait){
+    .pelajaran{
+        height: 70%;
+        width: 100%;
+    }
+    .pelajaran span{
+        display: none;
+    }
+    .pelajaran .header{
+        width: 80%;
+    }
+}

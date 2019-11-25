@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>webBETIS</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="pelajaranNoVid.css">
+    <link rel="stylesheet" href="template.css">
+    <!-- FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <div class="menu">
+            <div class="logo"><a href="index.html"><b>BETIS 2020</b></a></div>
+            <div onclick="openMenu()"><img src="images/navbarBtn.png" alt="" class="navbarBtn"></div>
+        </div>
+        <div class="option"  id="dropDown">
+            <ul>
+                <li class="aboutUs"><a href="#"><b>About Us</b></a></li>
+                <li class="profile"><a href="#"><b>Profile</b></a></li>
+                <li class="subjects"><a href="#"><b>Subjects</b></a></li>
+                <li class="login"><a href="#"><b>Login</b></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="content">
+        <div class="materi">
+            <div class="header"><b>Subjects</b></div>
+            <div class="daftarSub">
+                <div class="rumpunIlmu saintek" onclick="openIlmu(1)">
+                    <div class="namaRumpun">
+                        <div><img src="images/polygon.png" alt="" class="polygon"></div>
+                        <div><b>Saintek</b></div>
+                    </div>
+                    <div class="ilmu">
+                        <li><a href="#">Matematika</a></li>
+                        <li><a href="fisika.html">Fisika</a></li>
+                        <li><a href="#">Kimia</a></li>
+                        <li><a href="#">Biologi</a></li>
+                    </div>
+                </div>
+                <div class="rumpunIlmu soshum" onclick="openIlmu(2)">
+                    <div class="namaRumpun">
+                        <div><img src="images/polygon.png" alt="" class="polygon"></div>
+                        <div><b>Soshum</b></div>
+                    </div>
+                    <div class="ilmu">
+                        <li><a href="#">Geografi</a></li>
+                        <li><a href="ekonomi.html">Ekonomi</a></li>
+                        <li><a href="#">Sosiologi</a></li>
+                        <li><a href="#">Sejarah</a></li>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pelajaran">
+            <div class="header">
+                <a href="index.html"><img src="images/polygon.png" alt=""><b>Kembali</b></a>
+                <h2>Ekonomi</h2>
+            </div>
+            <div class="gambar">
+                <img src="images/ekonomi.png" alt="">
+                <p class="penjelasan">Kurva di atas adalah kurva <i>supply</i> dan <i>demand</i>.</p>
+            </div>
+        </div>
+    </div>
+</body>
+<!-- JS dibawah isinya navbar dan content.materi -->
+<script src="template.js"></script>
+</html>
