@@ -19,22 +19,6 @@
     transform: rotate(180deg);
     margin-right: .25em;
 }
-.pelajaran .gambar{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.pelajaran .gambar img{
-    width: 300px;
-    height: 280px;
-}
-.pelajaran .gambar .penjelasan{
-    text-align: center;
-}
-.pelajaran .fileDwnld{
-    align-self: flex-start;
-    margin-left: 1.5em;
 }
 .pelajaran .header a{
     height: 40px;
@@ -49,16 +33,28 @@
     display: none;
 }
 
+/* pelajaran css no vid but image */
+.pelajaran .gambar{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pelajaran .gambar img{
+    width: 300px;
+    height: 280px;
+}
+.pelajaran .gambar .penjelasan{
+    text-align: center;
+}
+
 /* responsive portrait */
 @media (orientation: portrait){
-    .content .materi{
-        display: none;
-    }
     .pelajaran div.header a{
         display: flex;
     }
 }
-
+/* image responsive by width */
 @media (min-width: 850px){
     .pelajaran .gambar img{
         width: calc(300px * 1.7);

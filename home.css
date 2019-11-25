@@ -11,7 +11,7 @@
     font-size: 1.5rem;
     margin-bottom: .5em;
 }
-
+/* responsive home screen content */
 @media (orientation: portrait){
     .pelajaran{
         height: 70%;

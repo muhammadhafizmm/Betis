@@ -57,9 +57,6 @@
 
 /* responsive portrait */
 @media (orientation: portrait){
-    .content .materi{
-        display: none;
-    }
     .pelajaran div.header a{
         display: flex;
     }

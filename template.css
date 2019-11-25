@@ -53,7 +53,7 @@ body{
     text-decoration: none;
 }
 
-/* defult materi */
+/* defult content materi */
 .content{
     display: flex;
     flex-direction: row;
@@ -173,16 +173,14 @@ body{
         animation: slideDown .7s ease-in-out;
     }
 
-    /* defult content */
+    /* defult content portrait*/
     .content{
         flex-direction: column-reverse;
         height: calc(100vh - (5em + 20px));
     }
     .content .materi{
-        height: 25%;
-        width: calc(100% - 4em);
+        display: none;
     }
-}
 
 /* font responsive landscape */
 @media (max-width: 700px) and (orientation: landscape){
