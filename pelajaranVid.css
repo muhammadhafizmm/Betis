@@ -34,6 +34,7 @@
 .pelajaran .fileDwnld{
     align-self: flex-start;
     margin-left: 1.5em;
+    margin-bottom: 1em;
 }
 .pelajaran .fileDwnld a, .pelajaran .header a{
     height: 40px;
